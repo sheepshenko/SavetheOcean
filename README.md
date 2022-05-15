@@ -26,7 +26,7 @@ Logo creado por Equipo de Save Ocean.
 A continuacion mostraremos nuestra estructura que trabajamos en la pagina web e implementandola en la página web, mediante un:
 
 **Diagrama de Clases**
-![avatar](/user/desktop/doge.png)
+![diagramaClase](./public/images/diagramaDeClase.jpg)
 
 Las paginas contienen la siguiente estructura que proponemos considerando los aspectos de UX/UI para que le usuario pueda usarla de manera correcta e intuitiva,por lo que se si divide de la manera siguiente:
 
