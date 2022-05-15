@@ -1,0 +1,28 @@
+<%- include('./header.ejs'); %>
+<section id="reg-brigada">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center ">
+            <div class="col-12 col-lg-4">
+                <h3 class="text-white text-center fw-bolder mb-5">Registro de brigada</h3>
+                <div class="card bg-ocean">
+                    <div class="card-body">
+                        <form action="" class="mt-5 mb-5">
+                            <div class="mb-3">
+                                <label for="lider" class="form-label text-white">Usuario del lider de brigada</label>
+                                <input type="text" class="form-control input-white" id="lider" name="lider">
+                            </div>
+                            <div class="mb-3">
+                                <label for="brigada" class="form-label text-white">Nombre de brigada</label>
+                                <input type="text" class="form-control input-white" id="brigada" name="brigada">
+                            </div>
+                            <div class="mb-3 mt-5">
+                                <input type="submit" value="CREAR BRIGADA" class="bg-white text-ocean btn-ocean">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<%- include('./footer.ejs'); %>

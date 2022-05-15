@@ -12,6 +12,7 @@ var especiesRouter = require('./routes/especies');
 var brigadasRouter = require('./routes/brigadas');
 var registrateRouter = require('./routes/registrate');
 var loginRouter = require('./routes/login');
+var registrobrigadaRouter = require('./routes/registro-brigada');
 
 var app = express();
 
@@ -38,6 +39,7 @@ app.use('/especies', especiesRouter);
 app.use('/brigadas', brigadasRouter);
 app.use('/registrate', registrateRouter);
 app.use('/login', loginRouter);
+app.use('/registro-brigada', registrobrigadaRouter);
 
 
 // catch 404 and forward to error handler
