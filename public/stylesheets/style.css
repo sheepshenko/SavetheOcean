@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap");
+.logo {
+  width: 150px; }
+
+.poppins, p, h1, h2, h3, h4, h5, h6, a, label {
+  font-family: 'Poppins', sans-serif; }
+
+.text-ocean {
+  color: #155FCF !important; }
+
+.bg-coral {
+  background-color: #F6C0C0 !important; }
+
+.bg-ocean {
+  background-color: #155FCF !important; }
+
+.bg-white {
+  background-color: white; }
+
+#oceanbg {
+  min-height: 80vh;
+  background-image: url("./../images/ocean1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom; }
+
+.title-ocean {
+  font-size: 64px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800; }
+
+#oceanbg div.row {
+  height: 80vh; }
+
+.btn-comunidad {
+  border-radius: 0;
+  font-weight: bold;
+  padding: 1rem 3rem;
+  margin: auto;
+  display: table; }
+
+.btn-comunidad2 {
+  border-radius: 0;
+  font-weight: bold;
+  padding: 1rem 3rem; }
+
+.img-info {
+  display: flex;
+  flex-flow: column;
+  justify-content: center; }
+
+.footer {
+  min-height: 55vh;
+  background-image: url("./../images/footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .footer div.row {
+    min-height: 55vh; }
+
+/* ---------Pagina playas------------ */
+#playas {
+  min-height: 40vh;
+  background-image: url("./../images/playas.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  min-height: 40vh;
+  background-image: url("./../images/especies-en-peligro.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom; }
+  #playas div.row {
+    height: 40vh;
+    height: 40vh; }
+
+/* ---------Pagina Especies en peligro------------ */
+.img-especie {
+  background-color: lightgray;
+  height: 416px; }
+
+/* ---------Pagina brigadas------------ */
+#brigadas {
+  min-height: 40vh;
+  background-image: url("./../images/especies-en-peligro.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom; }
+  #brigadas div.row {
+    height: 40vh; }
+
+.img-especie {
+  background-color: lightgray;
+  height: 416px; }
+
+/* ---------Pagina Login------------ */
+#login {
+  min-height: 91vh;
+  background-image: url("./../images/ocean1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom; }
+  #login div.row {
+    height: 91vh; }
+
+.card-body {
+  padding: 1rem 4rem !important; }
+
+.input-ocean {
+  border: none;
+  background: rgba(89, 178, 194, 0.12);
+  padding: 20px;
+  font-size: 20px; }
+  .input-ocean:focus {
+    background: rgba(89, 178, 194, 0.12) !important; }
+
+.btn-ocean {
+  border-radius: 0;
+  font-weight: bold;
+  padding: 1rem 3rem;
+  margin: auto;
+  display: block;
+  width: 100%;
+  border: none; }
+
+/* ---------Pagina Login------------ */
+#registro {
+  min-height: 91vh;
+  background-image: url("./../images/ocean1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom; }
+
+.btn-ocean.crear {
+  width: 30%; }
+
+/* ---------Pagina Login------------ */
+#reg-brigada {
+  min-height: 91vh;
+  background-image: url("./../images/registro-brigada.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom; }
+  #reg-brigada div.row {
+    height: 91vh; }
+
+.input-white {
+  border: none;
+  background: white;
+  padding: 20px;
+  font-size: 20px; }
+  .input-white:focus {
+    background: white !important; }
+
+/*# sourceMappingURL=style.css.map */
