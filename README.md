@@ -1,7 +1,7 @@
 # Bootcamp Hack The Ocean
 ## Proyecto: **Save Ocean**
 
-![Logo](./public/images/logo.png)
+![Logo](./public/images/SaveOcean.png)
 Logo creado por Equipo de Save Ocean.
 
 ### Integrantes del equipo:
