@@ -159,4 +159,13 @@
   .input-white:focus {
     background: white !important; }
 
+.foto-perfil {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 80%;
+  border: 2px solid black; }
+
+.insignia {
+  width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
