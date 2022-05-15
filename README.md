@@ -45,3 +45,14 @@ graph TD
     C-->K(Brigadas)
     C-->L(Reporte de eventos)
 ```
+
+Requiere [Express.js](https://expressjs.com) para correr.
+
+Instala las dependencias y correr el proyecto: 
+```
+cd SavetheOcean
+npm install
+npm start
+```
+
+
