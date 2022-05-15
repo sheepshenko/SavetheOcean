@@ -7,6 +7,11 @@ var sassMiddleware = require('node-sass-middleware');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var playasRouter = require('./routes/playas');
+var especiesRouter = require('./routes/especies');
+var brigadasRouter = require('./routes/brigadas');
+var registrateRouter = require('./routes/registrate');
+var loginRouter = require('./routes/login');
 
 var app = express();
 
@@ -28,6 +33,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/playas', playasRouter);
+app.use('/especies', especiesRouter);
+app.use('/brigadas', brigadasRouter);
+app.use('/registrate', registrateRouter);
+app.use('/login', loginRouter);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
